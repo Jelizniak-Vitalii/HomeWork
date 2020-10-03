@@ -1,0 +1,100 @@
+.header{
+    margin-top: 200px;
+    text-align: center;
+}
+.style-header{
+    font-size: 36px;
+    font-family: 'Raleway', sans-serif;
+}
+
+#orange-line {
+    width: 64px; 
+    height: 2px;
+    margin-bottom: 30px;
+    background-color: orange;
+    border: 1px solid orange;
+    border-radius: 50px 50px 50px 50px;
+}
+
+.text-font{
+    font-size: 14px;
+    font-family: 'Open Sans', sans-serif;
+}
+
+.container{
+    
+    display: flex;
+    justify-content: space-around;
+    margin: 100px 300px 0px 300px;
+    text-align: center;
+}
+
+.circle{
+    height: 35px;
+    width: 35px;
+    border-radius: 50%;
+    border: 3px solid orange;
+    padding: 10px;
+}
+
+.container-text{
+    width: 100%;
+    height: 350px;
+    background-image:linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.6)), url("../images/street.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    text-align: center;
+}
+.style-text{
+    color: white;
+    padding-top: 70px;
+    font-size: 36px;
+    font-family: 'Raleway', sans-serif;
+    opacity: 0.9;
+}
+
+.white-line{
+    width: 74px; 
+    height: 1px;
+    margin-top: 30px;
+    background-color: white;
+    border: 1px solid white;
+    border-radius: 50px 50px 50px 50px;
+}
+
+.style-text-P{
+    color: white;
+    margin:35px 0px 40px 0px;
+    font-size: 20px;
+    font-family: 'Raleway', sans-serif;
+    opacity: 0.6;
+}
+
+.white-button{
+    color: white;
+    border: 2px solid white;
+    padding: 12px 20px 12px 20px;
+    text-decoration: none;
+}
+
+.footer{
+    height: 110px;
+    width: 100%;
+    background: black;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.button-image{
+    width: 45px;
+    height: 40px;
+    padding: 0px 10PX 0px 10px;
+    margin-top: 40px;
+}
+
+.rights{
+    color: white;
+    opacity: 0.5;
+}
